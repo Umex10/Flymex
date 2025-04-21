@@ -1,5 +1,12 @@
-body {
+html, body {
+    height: 100%;
     margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .background {
@@ -13,6 +20,7 @@ body {
     height: 50rem;
     width: 100%;
     z-index: 0;
+
 }
 
 .background::after {
@@ -131,7 +139,7 @@ body {
 .search-destinations h2 {
     margin: 0;
     color: white;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     white-space: nowrap;
 }
 
@@ -158,7 +166,7 @@ body {
 
 
 .type input {
-    width: 40rem;
+    width: 30rem;
     height: 2.3rem;
     padding-left: 2.7rem;
 }
@@ -191,10 +199,56 @@ body {
 }
 
 
+.footer {
+    background-color: #1a1a1a;
+    height: auto;
+    margin-top: auto;
+    width: 100%;
+    color: white;
+
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.footerNav-items ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+}
 
 
+.footerNav-items a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.footerNav-items a:hover {
+    color: #87CEEB;
+}
+
+.footerBottom {
+    text-align: center;
+    background-color: #111;
+}
 
 
+.footerBottom p {
+    text-align: center;
+}
+
+
+.designer {
+    font-weight: bold;
+    color: #87CEEB;
+  }
 
 
 
