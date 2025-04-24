@@ -353,5 +353,92 @@ html, body {
     .footerBottom p {
         font-size: 0.7rem;
     }
+
+    @media screen and (max-width: 815px) {
+
+    
+        .header h1 {
+            margin-top: 1.6rem;
+            font-size: 1.4rem;
+        }
+    
+        .header .x {
+            font-size: 1.9rem;
+            top: 0.35rem;
+        }
+    
+        .nav-and-buttons {
+            gap: 1rem;
+            margin-top: 0.4rem;
+        }
+        
+        .nav-items ul {
+            gap: 0.8rem;
+        }
+
+        .nav-items a {
+            font-size: 0.6rem;
+           
+        }
+
+        .log button {
+            width: 3rem;
+            padding: 0.25rem 0rem 0.25rem 0rem;
+            font-size: 0.6rem;
+        }
+    
+        .search-destinations h2 {
+            font-size: 1.6rem;
+    
+        }
+    
+        .search-destinations p {
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            font-size: 0.85rem;
+        }
+    
+        .type span {
+            top: 0.4rem;
+            padding-left: 0.3rem;
+            font-size: 0.9rem;
+        }
+
+        .type input {
+            width: 19.5rem;
+            height: 1.7rem;
+            padding-left: 2.7rem;
+        }
+    
+        .type input::placeholder {
+            position: absolute;
+            top: 0.6rem;
+            left: 1.7rem;
+            font-size: 0.7rem;
+        }
+    
+        .type button {
+            width: 4rem;
+            padding: 0.4rem 0rem 0.4rem 0rem;
+            font-size: 0.5rem;
+        }
+    
+        .footerNav-items ul {
+            gap: 2.2rem;
+            padding: 0;
+        }
+    
+        .footerNav-items a {
+            font-size: 0.6rem;
+        }
+    
+        .footerBottom p {
+            font-size: 0.6rem;
+        }
+    
+
+    }
+
+
 }
 
