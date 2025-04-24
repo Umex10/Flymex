@@ -105,6 +105,17 @@ html, body {
     color: #87CEEB;
 }
 
+
+.nav-items .sidebar {
+    display: none;
+    right: -100%;
+}
+
+.hamburger {
+    display: none;
+}
+
+
 .log {
     display: flex;
     gap: 0.5rem;
@@ -436,9 +447,81 @@ html, body {
             font-size: 0.6rem;
         }
     
-
     }
 
+    @media screen and (max-width: 554px) {
 
+        .header {
+            z-index: 10;
+        }
+
+        .nav-and-buttons {
+            gap: 0.7rem;
+            margin-top: 0.4rem;
+        }
+
+        .nav-items .sidebar {
+           position: fixed;
+           top: 0;
+           right: -100%;
+           height: 100vh;
+           width: 40%;
+           
+           background-color: rgba(26, 26, 26, 0.2);
+           backdrop-filter: blur(10px);
+
+           margin: 0;
+           
+
+           display: flex;
+           flex-direction: column;
+           justify-content: flex-start;
+           align-items: flex-start;
+           z-index: 1000;
+           gap: 0.8rem;
+
+           transition: 1s ease-out;
+
+        }
+
+        .nav-items .sidebar li {
+            width: 100%;
+            height: 3rem;
+        }
+
+        .nav-items .sidebar a {
+            height: 100%;
+            padding: 0 0.5rem;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            padding-left: 0.5rem;
+            width: 100%;
+        }
+
+        .nav-items .sidebar a:hover {
+            background-color: #333;
+            color: #87CEEB;
+        }
+
+        .hamburger {
+            display: block;
+            margin-top: 0.3rem;
+        }
+
+        /* Hide some <li> elements */
+
+        .hideOnMobile {
+            display: none;
+        }
+
+        .search-destinations {
+            z-index: 2;
+        }
+
+    }
 }
+
+
 
