@@ -188,8 +188,9 @@ html, body {
 
 .type span {
     position: absolute;
-    font-size: 1.5rem;
-    padding-left: 0.5rem;
+    font-size: 1.7rem;
+    padding-left: 0.4rem;
+    top: 0.15rem;
     color: #87CEEB;
 }
 
@@ -198,11 +199,14 @@ html, body {
     width: 40rem;
     height: 2.3rem;
     padding-left: 2.7rem;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
 }
 
 .type input::placeholder {
     position: absolute;
-    font-size: 1rem;
+    top: 0.5rem;
+    font-size: 1.3rem;
     color:#d3d3d3;
 }
 
@@ -328,28 +332,31 @@ html, body {
     }
 
     .type span {
-        top: 0.3rem;
+        top: 0.1rem;
         padding-left: 0.3rem;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         
     }
 
     .type input {
         width: 25.5rem;
         height: 2rem;
-        padding-left: 2.7rem;
+        padding-left: 2.3rem;
+        padding-top: 0.15rem;
+        font-size: 1rem;
+        line-height: 2rem;
     }
 
     .type input::placeholder {
         position: absolute;
-        top: 0.65rem;
-        left: 2rem;
-        font-size: 0.8rem;
+        top: 0.6rem;
+        left: 2.3rem;
+        font-size: 1rem;
     }
 
     .type button {
-        width: 4rem;
-        font-size: 0.6rem;
+        width: 4.5rem;
+        font-size: 0.7rem;
     }
 
     .footerNav-items ul {
@@ -410,28 +417,31 @@ html, body {
         }
     
         .type span {
-            top: 0.4rem;
+            top: 0.2rem;
             padding-left: 0.3rem;
-            font-size: 0.9rem;
+            font-size: 1.2rem;
         }
 
         .type input {
             width: 19.5rem;
             height: 1.7rem;
-            padding-left: 2.7rem;
+            padding-left: 1.9rem;
+            padding-top: 0.15rem;
+            font-size: 0.8rem;
+            line-height: 1.7rem;
         }
     
         .type input::placeholder {
             position: absolute;
-            top: 0.6rem;
-            left: 1.7rem;
-            font-size: 0.7rem;
+            top: 0.5rem;
+            left: 1.9rem;
+            font-size: 0.8rem;
         }
     
         .type button {
             width: 4rem;
-            padding: 0.4rem 0rem 0.4rem 0rem;
-            font-size: 0.5rem;
+            right: 0.4rem;
+            font-size: 0.6rem;
         }
     
         .footerNav-items ul {
@@ -508,6 +518,14 @@ html, body {
         .hamburger {
             display: block;
             margin-top: 0.3rem;
+            transition: all 0.3s ease;
+        }
+
+        .hamburger:hover {
+            cursor: pointer;
+            box-shadow: 0 0 5px #87CEEB, 0 0 20px #87CEEB;
+            color: white;
+            background-color: rgba(135, 206, 235, 0.1);
         }
 
         /* Hide some <li> elements */
@@ -521,7 +539,60 @@ html, body {
         }
 
     }
+
+    @media screen and (max-width: 480px) {
+
+        .background {
+            background-position: 55% center;
+        }
+
+
+        .search-destinations h2 {
+            font-size: 1.6rem;
+            white-space: normal; 
+            display: inline-block;
+            max-width: 20rem; /* Steuert die Zeilenlänge */
+            text-align: center;
+            margin-bottom: 0.3rem;
+        }
+
+        .search-destinations p {
+            margin-bottom: 1.2rem;
+        }
+
+        .type span {
+            top: 0.25rem;
+            padding-left: 0.3rem;
+            font-size: 1.1rem;
+        }
+
+        .type input {
+            width: 14rem;
+            padding-left: 1.8rem;
+            padding-top: 0.1rem;
+            font-size: 0.7rem;
+           
+        }
+
+        .type input::placeholder {
+            top: 0.6rem;
+            left: 1.8rem;
+            font-size: 0.7rem;
+        }
+
+        .type button {
+            width: 3rem;
+            right: 0.3rem;
+            padding-top: 0.;
+            font-size: 0.5rem;
+        }
+        
+        }
+
+        
+
+
+
+
 }
-
-
 
