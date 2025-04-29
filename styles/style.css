@@ -288,6 +288,94 @@ html, body {
 
 /* media-queries */ 
 
+@media screen and (min-width: 1920px) {
+
+    .header h1 {
+        margin-top: 5.5rem;
+        font-size: 3rem;
+    }
+
+    .header .x {
+        font-size: 3.6rem;
+        top: 0.50rem;
+    }
+
+    .nav-and-buttons {
+        gap: 2.5rem;
+        margin-top: 2rem;
+    }
+    
+    .nav-items ul {
+        gap: 2.5rem;
+        margin-top: 1.6rem;
+    }
+    
+    .nav-items a {
+        font-size: 1.5rem;
+       
+    }
+
+    .log button {
+        width: 8rem;
+        font-size: 1.5rem;
+        margin-top: 0.65rem;
+    }
+
+    .search-destinations h2 {
+        font-size: 3.5rem;
+
+    }
+
+    .search-destinations p {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    .type span {
+        top: 0rem;
+        padding-left: 0.3rem;
+        font-size: 2.5rem;
+        
+    }
+
+    .type input {
+        width: 47rem;
+        height: 3rem;
+        padding-left: 3.8rem;
+        padding-top: 0.15rem;
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .type input::placeholder {
+        position: absolute;
+        top: 0.7rem;
+        left: 3.8rem;
+        font-size: 1.8rem;
+    }
+
+    .type button {
+        width: 8rem;
+        font-size: 1.5rem;
+    }
+
+    .footerNav-items ul {
+        gap: 5rem;
+        padding: 0;
+    }
+
+    .footerNav-items a {
+        font-size: 1.5rem;
+    }
+
+    .footerBottom p {
+        font-size: 1.3rem;
+    }
+
+
+}
+
 
 @media screen and (max-width: 1200px) {
 
