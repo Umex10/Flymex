@@ -60,7 +60,7 @@ html, body {
 
 .header h1 {
     margin-left: 2rem;
-    margin-top: 2.1rem;
+    margin-top: 2.3rem;
     color: white;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -288,12 +288,13 @@ html, body {
 
 /* media-queries */ 
 
+
 @media screen and (max-width: 1200px) {
 
 
     .header h1 {
-        margin-top: 1.9rem;
-        font-size: 1.7rem;
+        margin-top: 2.8rem;
+        font-size: 1.8rem;
     }
 
     .header .x {
@@ -302,8 +303,8 @@ html, body {
     }
 
     .nav-and-buttons {
-        gap: 2rem;
-        margin-top: 0.6rem;
+        gap: 2.5rem;
+        margin-top: 1.2rem;
     }
     
     .nav-items ul {
@@ -311,24 +312,24 @@ html, body {
     }
     
     .nav-items a {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
        
     }
 
     .log button {
         width: 5rem;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .search-destinations h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
 
     }
 
     .search-destinations p {
         margin-top: 0;
         margin-bottom: 1.5rem;
-        font-size: 1.05rem;
+        font-size: 1.4rem;
     }
 
     .type span {
@@ -339,7 +340,7 @@ html, body {
     }
 
     .type input {
-        width: 25.5rem;
+        width: 34rem;
         height: 2rem;
         padding-left: 2.3rem;
         padding-top: 0.15rem;
@@ -365,11 +366,11 @@ html, body {
     }
 
     .footerNav-items a {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .footerBottom p {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     @media screen and (max-width: 815px) {
@@ -649,7 +650,5 @@ html, body {
             }
             
         }
-
-
 }
 
