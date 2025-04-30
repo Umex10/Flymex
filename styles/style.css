@@ -286,6 +286,7 @@ body {
     border-radius: 1rem;
     margin: 0.5rem 0rem 0.5rem 0.5rem;
     object-fit: cover;
+    object-position: center top;
 }
 
 .cards h3 {
@@ -685,6 +686,37 @@ body {
     .checkoutButton {
         width: 22rem;
         font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .cards img {
+        width: 20rem;
+        height: 20rem;
+        margin-top: 1.1rem;
+    }
+
+    .cards h3 {
+        
+        font-size: 3rem;
+        
+    }
+
+    .text {
+        font-size: 1.3rem;
+    }
+
+    .showMore a {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (max-width: 1700px) {
+    .cards img {
+        width: 20rem;
+        height: 5rem;
+       
     }
 }
 
