@@ -1055,7 +1055,7 @@ body {
         }
 
         .text {
-            width: 65%;
+            width: 100%;
         }
 
     }
@@ -1135,6 +1135,17 @@ body {
         .search-destinations {
             z-index: 2;
         }
+
+        .cards img {
+            width: 15rem;
+            height: 12rem;
+            margin-top: 1.1rem;
+        }
+
+        .text {
+            font-size: 0.7rem;
+        }
+
     }
 
     @media screen and (max-width: 480px) {
