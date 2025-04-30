@@ -888,8 +888,66 @@ body {
     }
 
 }
-    
-    
+
+
+@media screen and (max-width: 1000px) {
+
+    .cards img {
+        width: 14rem;
+        height: 14rem;
+        margin-top: 1.1rem;
+    }
+
+    .cards h3 {
+        font-size: 1.7rem;
+    }
+
+    .rating {
+        font-size: 0.7rem;
+    }
+
+    .ratingString {
+        font-size: 0.7rem;
+    }
+
+    .ratingDouble {
+        font-size: 1rem;
+    }
+
+    .text {
+        font-size: 0.8rem;
+    }
+
+    .showMore a {
+        font-size: 0.7rem;
+    }
+
+    .startMoney {
+        
+        font-size: 0.9rem;
+    }
+
+    .money {
+        
+        font-size: 2.1rem;
+        
+    }
+
+    .people {
+        font-size: 0.7rem;
+    }
+
+    .checkoutButton {
+       
+        width: 9rem;
+        font-size: 1.2rem;
+    }
+
+
+
+
+
+}
 
     @media screen and (max-width: 815px) {
         .header h1 {
