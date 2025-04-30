@@ -502,7 +502,7 @@ html, body {
 
 
 
-@media screen and (min-width: 1920px) and (max-width: 2999px)  {
+@media screen and (min-width: 2500px) and (max-width: 2999px)  {
 
     .header h1 {
         margin-top: 5.5rem;
