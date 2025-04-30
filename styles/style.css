@@ -712,12 +712,45 @@ body {
 }
 
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1500px) {
+
     .cards img {
-        width: 20rem;
-        height: 5rem;
-       
+        width: 18rem;
+        height: 18rem;
+        margin-top: 1.1rem;
     }
+
+    .cards h3 {
+        
+        font-size: 2.5rem;
+        
+    }
+
+    .rating {
+        font-size: 1rem;
+        gap: 0.7rem;
+        margin: 0;
+    }
+
+    .ratingString {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .ratingDouble {
+        font-size: 1.5rem;
+    }
+
+    .text {
+        font-size: 1.2rem;
+    }
+
+    .showMore a {
+        font-size: 1.1rem;
+    }
+
+
+    
 }
 
 @media screen and (max-width: 1200px) {
