@@ -15,6 +15,8 @@
       href="https://fonts.googleapis.com/css2?family=Anton&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
+    <!--Roboto font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- For Aguafina  Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,7 +24,6 @@
       href="https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Anton&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rampart+One&display=swap"
       rel="stylesheet"
     />
-
   </head>
   <body>
     <div class="wrapper">
@@ -30,29 +31,61 @@
         <header class="header">
           <h1>Flyme<span class="x">X</span></h1>
           <div class="nav-and-buttons">
-          <nav class="nav-items">
-            <ul class="sidebar">
-              <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-              <li><a href="/">HOME</a></li>
-              <li><a href="/destinations.html">DESTINATIONS</a></li>
-              <li><a href="/blog.html">BLOG</a></li>
-              <li><a href="/about.html">ABOUT</a></li>
-              <li><a href="/contact.html">CONTACT</a></li>
-            </ul>
+            <nav class="nav-items">
+              <ul class="sidebar">
+                <li onclick="hideSidebar()">
+                  <a href="#"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24px"
+                      viewBox="0 -960 960 960"
+                      width="24px"
+                      fill="#e3e3e3"
+                    >
+                      <path
+                        d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                      /></svg
+                  ></a>
+                </li>
+                <li><a href="/">HOME</a></li>
+                <li><a href="/destinations.html">DESTINATIONS</a></li>
+                <li><a href="/blog.html">BLOG</a></li>
+                <li><a href="/about.html">ABOUT</a></li>
+                <li><a href="/contact.html">CONTACT</a></li>
+              </ul>
 
-            <ul>
-              <li class="hideOnMobile"><a  class="hideOnMobile"href="/">HOME</a></li>
-              <li class="hideOnMobile"><a href="/destinations.html">DESTINATIONS</a></li>
-              <li class="hideOnMobile"><a href="/blog.html">BLOG</a></li>
-              <li class="hideOnMobile"><a href="/about.html">ABOUT</a></li>
-              <li class="hideOnMobile"><a href="/contact.html">CONTACT</a></li>
-              <li class="hamburger" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1.6rem" viewBox="0 -960 960 960" width="1.6rem" fill="#87CEEB"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
-            </ul>
-          </nav>
-          <div class="log">
-            <button type="button" id="log-in">LOGIN</button>
-            <button type="button" id="sign-in">SIGN UP</button>
-          </div>
+              <ul>
+                <li class="hideOnMobile">
+                  <a class="hideOnMobile" href="/">HOME</a>
+                </li>
+                <li class="hideOnMobile">
+                  <a href="/destinations.html">DESTINATIONS</a>
+                </li>
+                <li class="hideOnMobile"><a href="/blog.html">BLOG</a></li>
+                <li class="hideOnMobile"><a href="/about.html">ABOUT</a></li>
+                <li class="hideOnMobile">
+                  <a href="/contact.html">CONTACT</a>
+                </li>
+                <li class="hamburger" onclick="showSidebar()">
+                  <a href="#"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1.6rem"
+                      viewBox="0 -960 960 960"
+                      width="1.6rem"
+                      fill="#87CEEB"
+                    >
+                      <path
+                        d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                      /></svg
+                  ></a>
+                </li>
+              </ul>
+            </nav>
+            <div class="log">
+              <button type="button" id="log-in">LOGIN</button>
+              <button type="button" id="sign-in">SIGN UP</button>
+            </div>
           </div>
         </header>
         <section class="search-destinations">
@@ -66,8 +99,125 @@
         </section>
       </div>
 
+      <main class="main">
+        <section class="cards">
+          <article class="madridCard">
+            <img src="/images/Madrid.jpg" alt="Madrid" />
+              <section class="about">
+                <section class="cityAndRating">
+                  <h3>Madrid</h3>
+                  <section class="rating">
+                    <section class="ratingStringAndAmount">
+                    <p class="ratingString">Excellent</p>
+                    <p class="ratingAmount"><span class="numberRating">1260</span> real ratings</p>
+                    </section>
+                    <p class="ratingDouble">9,0</p>
+                  </section>
+                </section>
+                <section class="text">
+                  <p>
+                    Madrid, the vibrant capital of Spain, blends royal history
+                    with modern energy. Visitors can enjoy sunny weather,
+                    delicious tapas, world-class museums like the Prado, and a
+                    lively nightlife. It's the perfect destination for culture
+                    lovers, foodies, and anyone looking to experience true
+                    Spanish spirit.
+                  </p>
+                </section>
+                <section class="showAndCheckout">
+                <section class="showMore">
+                  <a href="/destinations.html">Show more</a>
+                </section>
+                <section class="checkout">
+                  <p class="startMoney">Starting at</p>
+                  <p class="money">€ 99,35</p>
+                  <p class="people">1 Adult</p>
+                  <button type="button" class="checkoutButton">Book</button>
+                </section>
+              </section>
+            </section>
+          </article>
+          <article class="madridCard2">
+            <img src="/images/Tower.jpg" alt="Madrid" />
+              <section class="about">
+                <section class="cityAndRating">
+                  <h3>Paris</h3>
+                  <section class="rating">
+                    <section class="ratingStringAndAmount">
+                    <p class="ratingString">Excellent</p>
+                    <p class="ratingAmount"><span class="numberRating">5000</span> real ratings</p>
+                    </section>
+                    <p class="ratingDouble">8,6</p>
+                  </section>
+                </section>
+                <section class="text">
+                  <p>
+                    Paris, the captivating capital of France, 
+                    is a perfect blend of history and modernity. 
+                    Visitors can marvel at iconic landmarks like the 
+                    Eiffel Tower and Notre-Dame, explore world-class museums 
+                    such as the Louvre, and indulge in delicious French cuisine. 
+                    Whether strolling along the Seine or shopping in high-end boutiques, 
+                    Paris offers something for everyone, making it the ultimate destination 
+                    for art lovers, food enthusiasts, and romantics alike.
+                  </p>
+                </section>
+                <section class="showAndCheckout">
+                <section class="showMore">
+                  <a href="/destinations.html">Show more</a>
+                </section>
+                <section class="checkout">
+                  <p class="startMoney">Starting at</p>
+                  <p class="money">€ 77,55</p>
+                  <p class="people">1 Adult</p>
+                  <button type="button" class="checkoutButton">Book</button>
+                </section>
+              </section>
+            </section>
+          </article>
+          <article class="madridCard2">
+            <img src="/images/Japan.jpg" alt="Madrid" />
+              <section class="about">
+                <section class="cityAndRating">
+                  <h3>Tokio</h3>
+                  <section class="rating">
+                    <section class="ratingStringAndAmount">
+                    <p class="ratingString">Excellent</p>
+                    <p class="ratingAmount"><span class="numberRating">6553</span> real ratings</p>
+                    </section>
+                    <p class="ratingDouble">7,9</p>
+                  </section>
+                </section>
+                <section class="text">
+                  <p>
+                    Tokyo, the bustling capital of Japan, 
+                    is a vibrant mix of traditional culture and cutting-edge modernity. 
+                    Visitors can explore historic temples, 
+                    experience the fast-paced urban life, and indulge in world-famous 
+                    Japanese cuisine like sushi and ramen. From the bright lights of 
+                    Shibuya to serene gardens and shrines, Tokyo offers something for 
+                    everyone, making it a must-visit destination for culture enthusiasts 
+                    and tech lovers alike.
+                  </p>
+                </section>
+                <section class="showAndCheckout">
+                <section class="showMore">
+                  <a href="/destinations.html">Show more</a>
+                </section>
+                <section class="checkout">
+                  <p class="startMoney">Starting at</p>
+                  <p class="money">€ 150</p>
+                  <p class="people">1 Adult</p>
+                  <button type="button" class="checkoutButton">Book</button>
+                </section>
+              </section>
+            </section>
+          </article>
+        </section>
+      </main>
+
       <footer class="footer">
-        <div class="footerNav-items"> 
+        <div class="footerNav-items">
           <ul>
             <li><a href="/">HOME</a></li>
             <li><a href="/destinations.html">DESTINATIONS</a></li>
