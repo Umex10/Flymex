@@ -1243,6 +1243,31 @@ body {
         .footerBottom p {
             font-size: 0.55rem;
         }
+
+        .showMore {
+            margin: 0;
+            padding: 0;
+            font-size: 0.5rem;
+        }
+
+
+    }
+
+    @media screen and (max-width: 360px) {
+
+        
+        
+        .rating {
+            font-size: 0.5rem;
+        }
+
+        .ratingString {
+            font-size: 0.5rem;
+        }
+
+        .ratingDouble {
+            font-size: 0.55rem;
+        }
     }
 
     @media screen and (max-width: 340px) {
@@ -1292,5 +1317,6 @@ body {
         .footerBottom p {
             font-size: 0.55rem;
         }
+
+
     }
-}
